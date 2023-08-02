@@ -4,10 +4,6 @@ import close from '../icon/icons8-close-94.png'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
 
-
-// IMAGES
-import logo from '../image/1574619145-removebg-preview.png'
-
 // HEADER
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 
