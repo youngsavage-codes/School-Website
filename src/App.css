@@ -1,0 +1,199 @@
+body
+{
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar
+{
+  width: 0;
+}
+
+nav 
+{
+  background-color: white;
+}
+
+.header
+{
+  font-family:  cursive;
+}
+
+.links
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+  font-family: 'Bubblegum sans';
+  font-size: 41px;
+}
+
+h2
+{
+  font-family: 'Bubblegum sans';
+}
+
+.landing_trans
+{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.landing_tran
+{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+section
+{
+  z-index: 55;
+}
+
+.land-1
+{
+  background-image: url('image/african-girl-sitting-table-schoolgirls-read-book-during-break-children-sit-computer-science-class.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.land-2
+{
+  background-image: url('image/cute-kid-glasses-studio.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-3
+{
+  background-image: url('image/schoolboys-lesson.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p, a, button
+{
+  font-family: 'Bahnschrift Condensed';
+}
+
+.special
+{
+  background-image: url('./image/teacher-bg-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 5;
+}
+
+.testimonial
+{
+  background-image: url('./image/testimonial-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about_us
+{
+  background-image: url('./image/about-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about_teachers
+{
+  background-image: url('./image/teacher-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.over
+{
+  background-color: rgba(7, 143, 203, .8);
+}
+
+.footer
+{
+  background-image: url('./image/footer-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page_header
+{
+  background-image: url('./image/page-header-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tabs
+{
+  display: none;
+}
+
+.active-tab
+{
+  background-color: white;
+  border-top: 3px solid #92278F;
+}
+
+.mobilelinks
+{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.zig_zag
+{
+  position: relative;
+  z-index: 5;
+}
+
+
+.zig_zag::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(-135deg, #FFF 12px, transparent 0%), linear-gradient(135deg, #FFF 12px, transparent 0%);
+    background-size: 15px;
+}
+
+.zig_zag::after
+{
+    content: '';
+    position: absolute;
+    bottom: -0px;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    background: linear-gradient(-45deg, #FFF 12px, transparent 0%), linear-gradient(45deg, #FFF 12px, transparent 0%);
+    background-size: 15px;
+}
+
+.gallery
+{
+  position: relative;
+}
+
+.gallery::before
+{
+    content: '';
+    position: absolute;
+    bottom: -0px;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    background: linear-gradient(-45deg, #92278F 12px, transparent 0%), linear-gradient(45deg, #92278F 12px, transparent 0%);
+    background-size: 15px;
+}
